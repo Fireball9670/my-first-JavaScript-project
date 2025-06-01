@@ -1,0 +1,32 @@
+:root {
+    font-family: sans-serif;
+}
+
+#content {
+    text-align: center;
+}
+
+#save-btn,
+#increment-btn {
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;    
+}
+
+#save-btn {
+    background-color: red;
+}
+
+#save-btn:hover {
+    background-color: tomato;
+}
+
+#increment-btn {
+    background-color: green;
+}
+
+#increment-btn:hover {
+    background-color: yellowgreen;
+}
