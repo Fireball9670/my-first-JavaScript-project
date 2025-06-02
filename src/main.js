@@ -16,3 +16,6 @@ function save() {
     countEl.innerText = count
     console.log(count)
 }
+
+window.increment = increment;
+window.save = save;

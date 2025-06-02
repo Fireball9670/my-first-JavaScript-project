@@ -1,3 +1,4 @@
+import './style.css'
 import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -46,11 +47,11 @@ function addStar(){
 
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('assets/space.jpg')
+const spaceTexture = new THREE.TextureLoader().load('./assets/space.jpg')
 scene.background = spaceTexture 
 
-const earthTexture = new THREE.TextureLoader().load('assets/earth.jpg')
-const earthNormal = new THREE.TextureLoader().load('assets/earth_normals.jpg')
+const earthTexture = new THREE.TextureLoader().load('./assets/earth.jpg')
+const earthNormal = new THREE.TextureLoader().load('./assets/earth_normals.jpg')
 const earth = new THREE.Mesh(
     new THREE.SphereGeometry(10 , 24, 24),
     new THREE.MeshStandardMaterial({
