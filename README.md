@@ -15,3 +15,4 @@ This is my first JavaScript project, created as part of my self-study journey to
 ```bash
 git clone https://github.com/your-username/my-first-JavaScript-project.git
 cd my-first-JavaScript-project
+```
